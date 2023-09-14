@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="Silver">#7A7F83</color>
+    <color name="Green">#105F35</color>
+    <color name="Purple">#7762B3</color>
+    <color name="Orange">#e46815</color>
+    <color name="primary_text_color">#1A68E6</color>
+    <color name="secondary_text_color">#7A8089</color>
+    <color name="bg_color">#DDD9E7</color>
+    <color name="tabRippleColor">#FF5722</color>
+    <color name="tabIndicatorColor">#FF5722</color>
+    <color name="tabUnselectedTextColor">#CCCCCC</color>
+</resources>
