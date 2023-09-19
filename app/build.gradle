@@ -11,12 +11,12 @@ android {
 
     defaultConfig {
         applicationId "com.example.assignment_2"
-        minSdk 21
+        minSdk 24
         targetSdk 34
         versionCode 1
         versionName "1.0"
 
-        testInstrumentationRunner "com.example.assignment_2.MyTest"
+       
     }
 
     buildTypes {
@@ -54,8 +54,8 @@ dependencies {
     //Retrofit
     implementation "com.squareup.retrofit2:retrofit:2.9.0"
     implementation "com.squareup.retrofit2:converter-gson:2.9.0"
-    implementation "com.squareup.okhttp3:okhttp:5.0.0-alpha.3"
     implementation "com.squareup.okhttp3:logging-interceptor:5.0.0-alpha.3"
+
 
     implementation "androidx.activity:activity-ktx:1.7.2"
     implementation "androidx.fragment:fragment-ktx:1.6.1"
@@ -67,19 +67,19 @@ dependencies {
     kapt "com.google.dagger:hilt-compiler:2.44"
 
 
-    testImplementation("com.google.dagger:hilt-android-testing:2.44")
-    kaptTest("com.google.dagger:hilt-android-compiler:2.44")
-    androidTestImplementation("com.google.dagger:hilt-android-testing:2.44")
-    kaptAndroidTest("com.google.dagger:hilt-android-compiler:2.44")
-    testImplementation 'org.mockito:mockito-core:3.12.4'
 
 
      //Glide
     implementation 'com.github.bumptech.glide:glide:4.14.2'
-    annotationProcessor 'com.github.bumptech.glide:compiler:4.14.2'
+    annotationProcessor 'com.github.bumptech.glide:compiler:4.12.0'
 
     //Picasso
     implementation("com.squareup.picasso:picasso:2.71828")
+
+
+   testImplementation 'com.squareup.okhttp3:mockwebserver:5.0.0-alpha.3'
+
+
 }
 
 

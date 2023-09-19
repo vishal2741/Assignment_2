@@ -3,7 +3,6 @@ package com.example.assignment_2
 import org.junit.Test
 
 import org.junit.Assert.*
-import org.mockito.Mock
 
 /**
  * Example local unit test, which will execute on the development machine (host).
