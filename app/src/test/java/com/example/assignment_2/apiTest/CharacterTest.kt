@@ -50,7 +50,6 @@ class CharacterTest {
 
         val responseBody = "404! Error....... Data is Not Found"
         val mockResponse = MockResponse()
-
             .setResponseCode(404)
             .setBody(responseBody)
         mockWebServer.enqueue(mockResponse)
